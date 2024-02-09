@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-09T17:46:42.650Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3837c5a4-3351-42f2-9d50-3f3bfe6a79d7",
+            "colId": "0239e0a9-7a3e-4c43-9184-7783510a0258",
+            "containerId": "",
+            "name": "mascotasPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-09T17:01:21.217Z",
+            "modified": "2024-02-09T17:26:43.061Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\" : \"Kaled\",\n  \"raza\": \"Chihuahua\",\n  \"edad\" : \"17\",\n  \"sexo\" : \"hembra\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e298e27b-f5e4-41dc-99ea-a197aa507c09",
+            "colId": "0239e0a9-7a3e-4c43-9184-7783510a0258",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:01:49.560Z",
+            "modified": "2024-02-09T17:16:03.751Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a56b6c6c-08a0-4613-8bd6-07ed0f5f5eed",
+            "colId": "0239e0a9-7a3e-4c43-9184-7783510a0258",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65c65f9b18afc28349e15bce",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:02:10.505Z",
+            "modified": "2024-02-09T17:38:10.652Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e47523f-1af7-4466-ba21-624ab973a574",
+            "colId": "0239e0a9-7a3e-4c43-9184-7783510a0258",
+            "containerId": "",
+            "name": "mascotasPut",
+            "url": "http://localhost:3000/api/mascotas/65c6603618afc28349e15bd7",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-09T17:03:00.576Z",
+            "modified": "2024-02-09T17:34:58.305Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\" : \"Keneth\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "17e4bf9d-019b-4ae7-baa7-b7c67d1f883d",
+            "colId": "0239e0a9-7a3e-4c43-9184-7783510a0258",
+            "containerId": "",
+            "name": "mascotasDelete",
+            "url": "http://localhost:3000/api/mascotas/65c65f9b18afc28349e15bce",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-09T17:03:20.248Z",
+            "modified": "2024-02-09T17:43:40.438Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
