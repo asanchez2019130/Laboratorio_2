@@ -41,8 +41,7 @@ router.post(
         check("nombre", "El nombre es obligatorio").not().isEmpty(),
         check("raza", "La raza debe de ser obligatoria"),
         check("edad", "La edad debe de ser obligatoria"),
-        check("sexo", "El genero debe de ser obligatorio"),
-        validarCampos,
+        check("sexo", "El genero debe de ser obligatorio")
     ], mascotaPost);
 
 module.exports = router;
